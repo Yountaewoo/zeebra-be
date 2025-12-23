@@ -33,12 +33,12 @@ KREAM 같은 명품 **리셀 플랫폼**과 당근 같은 중고거래 **중개 
 <br>
 
 ## 주요 기능
-1. **사용자 인증 (Auth)**: JWT 기반 인증 & 인가 
+1. 사용자 인증 (Auth): JWT 기반 인증 & 인가 
 2. 상품 검색 및 탐색 (Search & Browse)
 3. 관심 상품 (Wishlist)
 4. 실시간 단체 채팅 (Real-time Chat)
 5. 알림 (Notification)
-6. **주문 및 결제 (Order & Payment)**: 3가지 주문 방식(장바구니, 즉시 구매, 채팅 거래), Toss Payments 연동
+6. 주문 및 결제 (Order & Payment): 3가지 주문 방식(장바구니, 즉시 구매, 채팅 거래), Toss Payments 연동
 
 <br>
 <br>
@@ -49,18 +49,27 @@ KREAM 같은 명품 **리셀 플랫폼**과 당근 같은 중고거래 **중개 
 <br>
 <br>
 
-## 기술적 도전 과제 및 개선 사항
-### 1. 주문 및 결제 처리 속도 개선
-
-<br>
-<br>
-
 ## 시연 영상
 https://www.youtube.com/watch?v=LEjwIThP93Q
 <br>
 <br>
 
+## Commit Convention
+1. **type**: 커밋의 종류를 나타내며, 일반적으로 다음과 같은 타입 사용
+    - `init: 초기화`
+    - `feat: 새로운 기능 추가`
+    - `fix: 버그 수정`
+    - `docs: 문서 수정`
+    - `style: 코드 포맷팅, 세미콜론 누락 등 (로직 변화 없음)`
+    - `refactor: 코드 리팩토링 (기능 변화 없음)`
+    - `test: 테스트 추가 또는 수정`
+    - `chore: 빌드 프로세스 또는 보조 도구 변경 (build.gradle, application.yml, docker-compose 등)`
+    - `design: UI/UX 등 스타일 관련 작업 처리`
+2. **description**: 변경 내용을 간결하게 설명. 명사형으로 작성
+3. **Jira Ticket Number: 커밋 메세지 본문에 지라 키를 포함시킬 것**
+
+
 ## 팀원
 **FE** 이한음, 홍성경
 <br>
-**BE** 박가영, 이정민, 윤태우
+**BE** 박가영(주문/결제), 이정민(채팅), 윤태우(상품)
