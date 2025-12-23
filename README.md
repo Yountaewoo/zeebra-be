@@ -28,7 +28,7 @@ KREAM 같은 명품 **리셀 플랫폼**과 당근 같은 중고거래 **중개 
 <br>
 
 ## 아키텍처
-<img width="525" height="670" alt="image" src="https://github.com/user-attachments/assets/9c133ba0-ec50-45ad-93ff-38b6c835da8a" />
+<img width="753" height="766" alt="image" src="https://github.com/user-attachments/assets/fcdc1c6d-092c-4b1d-8f49-f04b81501e27" />
 <br>
 <br>
 
